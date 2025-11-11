@@ -1,7 +1,8 @@
 package Decorator;
 
 public interface ICompleteGame {
-	void test(int n);
-	String getMessage();
-	boolean isWin();
+	public void test(int n);
+	public String getMessage();
+	public boolean isWin();
+	public void generateWinningNumber();
 }
